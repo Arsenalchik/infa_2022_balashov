@@ -115,9 +115,6 @@ while not finished:
                 if hit(event, ball[0], ball[1]):
                     if ball[4]:
                         score += 10
-                        #звук для специальной цели
-                        pygame.mixer.music.load("bird_2.mp3")
-                        pygame.mixer.music.play()
                     else:
                         score += 1
 
@@ -132,4 +129,4 @@ pygame.quit()
 
 
 
-Arsen jan loh
+
