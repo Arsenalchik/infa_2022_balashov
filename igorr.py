@@ -33,7 +33,3 @@ while not finished:
             finished = True
 
 pygame.quit()
-
-
-
-
